@@ -1,0 +1,19 @@
+{
+  "name": "bluero-blackend",
+  "version": "1.0.0",
+  "description": "official backend of bluero",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "prisma": "^5.8.1"
+  }
+}
